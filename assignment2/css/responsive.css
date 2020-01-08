@@ -11,7 +11,7 @@ h1 {
 }
 
 .p1 {
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: gray;
   width: 90%;
   height: 150px;
@@ -29,18 +29,18 @@ h1 {
 
 
 .tile11 {
-    border: 2px solid black;
-  padding: .5em;
-  /* display: block; */
-  background-color: coral;
-  float: right;
-  width: 30%;
-  height: 50px;
-
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5em;
+    background-color: coral;
+    float: right;
+    width: 30%;
+    height: 50px;
 }   
 .tile12 {
-    border: 2px solid black;
-  padding: .5em;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 0.5em;
   /* display: block; */
   background-color: lightgoldenrodyellow;
   float: right;
@@ -49,8 +49,9 @@ h1 {
 
 }  
 .tile13 {
-    border: 2px solid black;
-  padding: .5em;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 0.5em;
   /* display: block; */
   background-color: lightpink;
   float: right;
@@ -59,28 +60,6 @@ h1 {
 
 }             
 
-
-/* #p2 {
-     border: 1px solid black;
-    background-color: gray;
-    width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
-    color: black; 
-    
-  }
-  #p3 {
-    border: 1px solid black;
-    background-color: gray;
-    width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
-    color: black;
-  } */
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
